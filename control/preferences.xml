@@ -3,17 +3,11 @@
 
 <preferences>
 	<!-- primary feed url -->
-	<pref name="pfurl" value="greektv.upg.gr/xml/gr_streams_avail.xml"/>
-	<!-- default report broken stream url -->
-	<pref name="rbsurl" value="http://openrokn.sourceforge.net/reportBrokenStream.php"/>
-	<!-- default email information url -->
-	<pref name="eiurl" value="http://openrokn.sourceforge.net/emailInformation.php"/>
-	<!-- default search url -->
-	<pref name="searchurl" value="http://openrokn.sourceforge.net/search.php"/>
+	<pref name="pfurl" value="http://greektv.upg.gr/xml/gr_streams_avail.xml"/>
 	<!-- splash screen image url. this should match the splash url in the manifest file.
              use a full screen image. 1280x720 for hd. 720x480 for sd. -->
-	<pref name="sdsplashurl" value="pkg:/images/splash_sd.png"/>
-	<pref name="hdsplashurl" value="pkg:/images/splash_hd.png"/>
+	<pref name="sdsplashurl" value="https://az832071.vo.msecnd.net/roku/splash_sd.png"/>
+	<pref name="hdsplashurl" value="https://az832071.vo.msecnd.net/roku/splash_hd.png"/>
 	<!-- default background color for counter on poster screens -->
 	<pref name="postercounterbground" value="#FFFFFF"/>
 	<!-- default text color for counter on poster screens -->
