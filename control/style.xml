@@ -20,5 +20,8 @@
 	<theme name="GridScreenLogoOffsetHD_X" value="72"/>
 	<theme name="GridScreenLogoOffsetHD_Y" value="23"/>
 	<theme name="GridScreenOverhangHeightHD" value="138"/>
+	<theme name="BackgroundColor" value="#000000"/>
+	
+	
 
 </style>

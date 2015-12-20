@@ -174,7 +174,7 @@ End Function
 
 Function initTheme() As Boolean
 	gaa = GetGlobalAA()
-
+backgroundColor = "#000000"
 	' parse the style.xml file and retrieve the theme settings
 	xe = CreateObject("roXMLElement")
 	if not(xe.Parse(ReadAsciiFile(gaa.constants.path.style))) then
