@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file can be edited but DO NOT remove it -->
+
+<style>
+<!-- STRINGS (only specific strings of text allowed) -->
+<!--
+	<theme name="ThemeType" value="generic-dark"/>
+-->
+<!-- STRINGS (these can be any string of text) -->
+<!--
+	<theme name="SpringboardDirectorLabel" value="Directed by"/>
+	<theme name="SpringboardArtistLabel" value="Artist:"/>
+	<theme name="SpringboardAlbumLabel" value="Album:"/>
+-->
+<!-- URLS -->
+	<theme name="OverhangSliceSD" value="pkg:/images/overhang_bg_sd.png"/>
+	<theme name="OverhangPrimaryLogoSD" value="pkg:/images/overhang_logo_sd.png"/>
+	<theme name="GridScreenOverhangSliceSD" value="pkg:/images/overhang_bg_sd.png"/>
+	<theme name="GridScreenLogoSD" value="pkg:/images/overhang_logo_sd.png"/>
+	<theme name="OverhangSliceHD" value="pkg:/images/overhang_bg_hd.png"/>
+	<theme name="OverhangPrimaryLogoHD" value="pkg:/images/overhang_logo_hd.png"/>
+	<theme name="GridScreenOverhangSliceHD" value="pkg:/images/overhang_bg_hd.png"/>
+	<theme name="GridScreenLogoHD" value="pkg:/images/overhang_logo_hd.png"/>
+<!--
+	<theme name="OverhangSecondaryLogoSD" value="pkg:/images/secondary_logo_sd.png"/>
+	<theme name="OverhangSecondaryLogoHD" value="pkg:/images/secondary_logo_hd.png"/>
+	<theme name="FilterBannerSliceSD" value="pkg:/images/filter_banner_slice_sd.png"/>
+	<theme name="FilterBannerActiveSD" value="pkg:/images/filter_banner_active_sd.png"/>
+	<theme name="FilterBannerInactiveSD" value="pkg:/images/filter_banner_inactive_sd.png"/>
+	<theme name="FilterBannerSliceHD" value="pkg:/images/filter_banner_slice_hd.png"/>
+	<theme name="FilterBannerActiveHD" value="pkg:/images/filter_banner_active_hd.png"/>
+	<theme name="FilterBannerInactiveHD" value="pkg:/images/filter_banner_inactive_hd.png"/>
+	<theme name="GridScreenFocusBorderSD" value="pkg:/images/grid_focus_border_sd.png"/>
+	<theme name="GridScreenFocusBorderHD" value="pkg:/images/grid_focus_border_hd.png"/>
+	<theme name="GridScreenDescriptionImageSD" value="pkg:/images/grid_desc_sd.png"/>
+	<theme name="GridScreenDescriptionImageHD" value="pkg:/images/grid_desc_hd.png"/>
+	<theme name="ListItemHighlightHD" value="pkg:/images/listitem_highlight_hd.png"/>
+	<theme name="ListItemHighlightSD" value="pkg:/images/listitem_highlight_sd.png"/>
+-->
+<!-- ORDERED PAIRS -->
+	<theme name="GridScreenDescriptionOffsetSD" value="(53,40)"/>
+	<theme name="GridScreenDescriptionOffsetHD" value="(72,61)"/>
+<!--
+	<theme name="GridScreenBorderOffsetSD" value="(-20,-20)"/>
+	<theme name="GridScreenBorderOffsetHD" value="(-25,-25)"/>
+-->
+<!-- INTEGERS -->
+	<theme name="OverhangPrimaryLogoOffsetSD_X" value="72"/>
+	<theme name="OverhangPrimaryLogoOffsetSD_Y" value="23"/>
+	<theme name="GridScreenLogoOffsetSD_X" value="72"/>
+	<theme name="GridScreenLogoOffsetSD_Y" value="23"/>
+	<theme name="GridScreenOverhangHeightSD" value="92"/>
+	<theme name="OverhangPrimaryLogoOffsetHD_X" value="72"/>
+	<theme name="OverhangPrimaryLogoOffsetHD_Y" value="23"/>
+	<theme name="GridScreenLogoOffsetHD_X" value="72"/>
+	<theme name="GridScreenLogoOffsetHD_Y" value="23"/>
+	<theme name="GridScreenOverhangHeightHD" value="138"/>
+<!--
+	<theme name="OverhangSecondaryLogoOffsetSD_X" value="25"/>
+	<theme name="OverhangSecondaryLogoOffsetSD_Y" value="25"/>
+	<theme name="OverhangSecondaryLogoOffsetHD_X" value="25"/>
+	<theme name="OverhangSecondaryLogoOffsetHD_Y" value="25"/>
+-->
+<!-- HTML HEX COLORS (all colors supported) -->
+<!--
+	<theme name="FilterBannerActiveColor" value="#FF00FF"/>
+	<theme name="FilterBannerInactiveColor" value="#FF00FF"/>
+	<theme name="FilterBannerSideColor" value="#FF00FF"/>
+	<theme name="ButtonMenuHighlightText" value="#0033FF"/>
+	<theme name="ButtonMenuNormalOverlayText" value="#B0B0B0"/>
+	<theme name="ButtonMenuNormalText" value="#686868"/>
+	<theme name="ButtonNormalColor" value="#FF00FF"/>
+	<theme name="ButtonHighlightColor" value="#FF00FF"/>
+	<theme name="BackgroundColor" value="#E0DFDF"/>
+	<theme name="ParagraphBodyText" value="#FF00FF"/>
+	<theme name="ParagraphHeaderText" value="#FF00FF"/>
+	<theme name="PosterScreenLine1Text" value="#FF00FF"/>
+	<theme name="PosterScreenLine2Text" value="#FF00FF"/>
+	<theme name="BreadcrumbTextLeft" value="#FF00FF"/>
+	<theme name="BreadcrumbTextRight" value="#FF00FF"/>
+	<theme name="BreadcrumbDelimiter" value="#FF00FF"/>
+	<theme name="RegistrationCodeColor" value="#FF00FF"/>
+	<theme name="RegistrationFocalColor" value="#FF00FF"/>
+	<theme name="SpringboardTitleText" value="#FF00FF"/>
+	<theme name="SpringboardActorColor" value="#FF00FF"/>
+	<theme name="SpringboardSynopsisColor" value="#FF00FF"/>
+	<theme name="SpringboardSynopsisText" value="#FF00FF"/>
+	<theme name="SpringboardGenreColor" value="#FF00FF"/>
+	<theme name="SpringboardRuntimeColor" value="#FF00FF"/>
+	<theme name="SpringboardDirectorLabelColor" value="#FF00FF"/>
+	<theme name="SpringboardDirectorColor" value="#FF00FF"/>
+	<theme name="SpringboardArtistColor" value="#FF00FF"/>
+	<theme name="SpringboardArtistLabelColor" value="#FF00FF"/>
+	<theme name="SpringboardAlbumColor" value="#FF00FF"/>
+	<theme name="SpringboardAlbumLabelColor" value="#FF00FF"/>
+	<theme name="EpisodeSynopsisText" value="#FF00FF"/>
+	<theme name="GridScreenDescriptionTitleColor" value="#00FFFF"/>
+	<theme name="GridScreenDescriptionDateColor" value="#FF005B"/>
+	<theme name="GridScreenDescriptionRuntimeColor" value="#5B005B"/>
+	<theme name="GridScreenDescriptionSynopsisColor" value="#606000"/>
+	<theme name="CounterTextLeft" value="#FF0000"/>
+	<theme name="CounterSeparator" value="#00FF00"/>
+	<theme name="CounterTextRight" value="#0000FF"/>
+	<theme name="ListScreenTitleColor" value="#CC0000"/>
+	<theme name="ListScreenDescriptionText" value="#00CC00"/>
+	<theme name="ListItemText" value="#00CC00"/>
+	<theme name="ListItemHighlightText" value="#CCCC00"/>
+	<theme name="TextScreenBodyText" value="#363636"/>
+	<theme name="TextScreenScrollBarColor" value="#CC0000"/>
+	<theme name="TextScreenScrollThumbColor" value="#00CC00"/>
+-->
+<!-- HTML HEX COLORS (only grayscale colors supported) -->
+<!--
+	<theme name="GridScreenBackgroundColor" value="#363636"/>
+	<theme name="GridScreenMessageColor" value="#808080"/>
+	<theme name="GridScreenRetrievingColor" value="#CCCCCC"/>
+	<theme name="GridScreenListNameColor" value="#FFFFFF"/>
+	<theme name="DialogTitleText" value="#363636"/>
+	<theme name="DialogBodyText" value="#808080"/>
+	<theme name="TextScreenBodyBackgroundColor" value="#808080"/>
+-->
+</style>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<title value="OpenRokn"/>
+	<version major="0" minor="3.3" build="031713"/>
+
+	<required file="openrokn.brs"/>
+	<required file="orUtils.brs"/>
+	<required file="htmlUtils.brs"/>
+	<required file="ormlGenerator.brs"/>
+	<required file="style.xml"/>
+	<required file="failsafe.xml"/>
+	<required file="preferences.xml"/>
+
+	<!-- sha1 hashes -->
+	<checksum file="openrokn.brs" hash="20580049920f56df087c90e23b567fcf3a7418f7"/>
+	<checksum file="orUtils.brs" hash="2dca88424427add5b11faabb2ec391c6fec9e980"/>
+	<checksum file="htmlUtils.brs" hash="68ee072b49c40aedb85bdf286c4ca682341c7fef"/>
+	<checksum file="ormlGenerator.brs" hash="05c6c050efc378c3cbda63383c5408a945a2bfa7"/>
+</manifest>

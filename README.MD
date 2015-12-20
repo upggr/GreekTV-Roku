@@ -1,0 +1,1 @@
+This is a client for ROKU that feeds from greektv.upg.gr based on openrkn

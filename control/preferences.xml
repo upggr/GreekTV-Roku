@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<preferences>
+	<!-- primary feed url -->
+	<pref name="pfurl" value="greektv.upg.gr/xml/gr_streams_avail.xml"/>
+	<!-- default report broken stream url -->
+	<pref name="rbsurl" value="http://openrokn.sourceforge.net/reportBrokenStream.php"/>
+	<!-- default email information url -->
+	<pref name="eiurl" value="http://openrokn.sourceforge.net/emailInformation.php"/>
+	<!-- default search url -->
+	<pref name="searchurl" value="http://openrokn.sourceforge.net/search.php"/>
+	<!-- splash screen image url. this should match the splash url in the manifest file.
+             use a full screen image. 1280x720 for hd. 720x480 for sd. -->
+	<pref name="sdsplashurl" value="pkg:/images/splash_sd.png"/>
+	<pref name="hdsplashurl" value="pkg:/images/splash_hd.png"/>
+	<!-- default background color for counter on poster screens -->
+	<pref name="postercounterbground" value="#FFFFFF"/>
+	<!-- default text color for counter on poster screens -->
+	<pref name="postercountertext" value="#000000"/>
+	<!-- exit grid screens when the up button is pressed on the top row -->
+	<pref name="exitgridtoprow" value="false"/>
+	<!-- scroll through a poster screen or grid row when the left/right remote buttons are
+             pressed on a springboard screen -->
+	<pref name="scrollsb" value="false"/>
+	<!-- enable adrise pre-roll ads (requires 3 brs scripts that are not included by default) -->
+	<pref name="enableadrise" value="false"/>
+	<!-- the prefs below MUST contain the exact height of the overhang_bg_sd.png and
+             overhang_bg_hd.png images. they are used to determine the position of counters
+             on poster screens and the top margin of documents. if you modify either of
+             those images make sure to update these values with the correct height. -->
+	<pref name="overhangheightsd" value="92"/>
+	<pref name="overhangheighthd" value="138"/>
+</preferences>
