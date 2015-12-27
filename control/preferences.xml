@@ -3,7 +3,7 @@
 
 <preferences>
 	<!-- primary feed url -->
-	<pref name="pfurl" value="http://greektv.upg.gr/api/?type=roku"/>
+	<pref name="pfurl" value="http://greektv.upg.gr/xml/gr_streams_avail.xml"/>
 	<!-- splash screen image url. this should match the splash url in the manifest file.
              use a full screen image. 1280x720 for hd. 720x480 for sd. -->
 	<pref name="sdsplashurl" value="https://az832071.vo.msecnd.net/roku/splash_sd.png"/>
